@@ -3,9 +3,9 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |feature, array|
       array.each do |name|
-        if pigeon_list[name] == nil 
+        if pigeon_list[name] == nil
           pigeon_list[name] = {}
-        end 
+        end
         if pigeon_list[name][key] == nil
           pigeon_list[name][key] = []
         end
